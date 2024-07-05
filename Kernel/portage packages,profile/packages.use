@@ -125,3 +125,7 @@ media-libs/libtgvoip alsa
 sys-libs/zlib minizip
 
 # WORLD PACKAGES END # 
+
+# IF user want to use #
+#www-client/firefox eme-free jumbo-build openh264 dbus
+#sys-firmware/intel-microcode split-ucode # needed for microcode
