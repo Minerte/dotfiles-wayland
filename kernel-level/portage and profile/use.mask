@@ -1,4 +1,6 @@
-echo "-qt6" > /etc/portage/profile/use.mask
+# First unmask with the command below
+# echo "-qt6" > /etc/portage/profile/use.mask
+
 
 # This
 dev-qt/qtgui
