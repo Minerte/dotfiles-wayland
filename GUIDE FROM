@@ -1,3 +1,9 @@
 This is a guide from
 https://www.reddit.com/r/Gentoo/comments/150r74m/guide_hyprland_nvidia_extremely_minimal_gentoo/
 where i have modified a little bit of it.
+
+Follow the gentoo guide and guide on top to see when to enable these following
+
+you need to remove gentoo repo "eselect repository remove gentoo && rm -rf /var/db/repos/gentoo"
+you need to add gentoo git repo "eselect repository add gentoo git https://github.com/gentoo-mirror/gentoo.git"
+repository to enable also "eselect repository enable wayland-desktop guru pf4public"
