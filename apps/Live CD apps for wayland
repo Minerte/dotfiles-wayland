@@ -10,7 +10,7 @@ gui-wm/hyprland
 gui-apps/hyprlock gui-apps/hypridle gui-libs/xdg-desktop-portal-hyprland gui-apps/hyprland-plugins gui-apps/hyprpaper gui-apps/hyprpicker gui-wm/hyprland-contrib
 
 # For terminal/console
-x11-terms/alacritty app-misc/tmux app-misc/neofetch apps-shells/starship app-shells/fzf app-shells/zoxide app-editor/neovim app-text/tree sys-process/htop sys-apps/ripgrep
+x11-terms/alacritty app-misc/tmux app-misc/neofetch apps-shells/starship app-shells/fzf app-shells/zoxide app-text/tree sys-process/htop sys-apps/ripgrep
 
 # For Vulkan drive
 media-libs/vulkan-layers media-libs/vulkan-loader dev-util/vulkan-tools media-libs/glfw media-libs/glew media-libs/glm
