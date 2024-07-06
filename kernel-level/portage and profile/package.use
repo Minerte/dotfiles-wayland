@@ -60,18 +60,13 @@ media-libs/libvpx postproc highbitdepth
 media-libs/dav1d 10bit 8bit
 media-video/mpv cli -vulkan egl libplacebo lua nvenc rubberband uchardet iconv lua_single_target_luajit
 media-libs/libplacebo -vulkan opengl # opengl is better with mpv
-net-p2p/qbittorrent qt6 gui
-net-libs/libtorrent-rasterbar dht
 media-gfx/imagemagick corefonts truetype jpeg opencl pango png webp
-app-office/libreoffice gtk dbus 
 media-sound/ncmpcpp taglib
 net-vpn/openvpn openssl
 
 # required use flags for our setup #
 # these are added because portage wants them enabled #
 # because we enabled other things above #
-mail-client/neomutt notmuch sasl
-net-mail/isync ssl
 sys-auth/polkit kde daemon # without these you can't build kde apps or breeze
 x11-libs/gtk+ X introspection
 dev-libs/libpcre2 unicode pcre16
@@ -127,5 +122,10 @@ sys-libs/zlib minizip
 # WORLD PACKAGES END # 
 
 # IF user want to use #
+##sys-firmware/intel-microcode split-ucode # needed for intel microcode
+#net-p2p/qbittorrent qt6 gui
+#net-libs/libtorrent-rasterbar dht
+#app-office/libreoffice gtk dbus 
 #www-client/firefox eme-free jumbo-build openh264 dbus
-#sys-firmware/intel-microcode split-ucode # needed for microcode
+#mail-client/neomutt notmuch sasl
+#net-mail/isync ssl
