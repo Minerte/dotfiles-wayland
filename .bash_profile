@@ -11,9 +11,4 @@ else
     exit 1 # Somehow this is a non-bash or non-login shell.
 fi
 
-# THIS IS FOR SYSTEMD PROFILE!
-# if [[ ! ${DISPLAY} && ${XDG_VTNR} == 8 ]]; then
-#     exec startx
-# fi
-
-# FOLLOW GENTOO HANDBOOK : https://wiki.gentoo.org/wiki/X_without_Display_Manager
+# THIS IS FOR OPENRC
